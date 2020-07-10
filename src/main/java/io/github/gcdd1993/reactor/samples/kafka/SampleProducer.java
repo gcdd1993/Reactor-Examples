@@ -35,7 +35,7 @@ public class SampleProducer {
 
     private static final Logger log = LoggerFactory.getLogger(SampleProducer.class.getName());
 
-    private static final String BOOTSTRAP_SERVERS = "101.132.242.66:9092";
+    private static final String BOOTSTRAP_SERVERS = "10.9.108.139:9092";
     private static final String TOPIC = "demo-topic";
 
     private final KafkaSender<Long, Person> sender;
